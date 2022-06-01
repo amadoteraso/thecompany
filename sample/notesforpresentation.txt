@@ -1,0 +1,41 @@
+Powerpoints presentation
+1. Requirements
+	- xampp, wamp, lamp, mamp
+	- separate installation of all software (mysql, php)
+2. Installation process and testing
+	- run through the installation process
+3. Explain the syntax of each mysql function that connect to the database
+4. Explain the parameters inside each functions
+5. Explain PDO vs MYSQLi advantages to each other
+6. Demonstrate sample example of mysqli (oop and procedural)
+7. Demonstrate sample example of PDO 
+8. ask for q and a after.
+
+PDO-
+The main advantage of PDO to mysqli is the database driver support. PDO support 12 different
+drivers namely CUBRID, MS SQL Server, Firebird/Interbase, IBM, Informix, MYSQL, Oracle,
+ODBC and DB2, PostgreSQL, SQLite, 4D etc. with 18 different databases
+
+MYSQLi-
+With the mysqli it only supports mysql database
+
+
+procedural and oop method
+- for the "procedural" it was said that it was for amatuers, only used procedural
+for simple programs and scripts 
+- for the "oop" having more complex requirements and the program change over time
+ oop might be a good choice in building bigger systems and applications.
+
+source: https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059
+
+PHP 5.5 above version using the traditional legacy mysql functions has been deprecated,
+it will show error deprecated.
+But starting from PHP 7.o version the code will not work anymore because it was removed.
+If your code is using a traditional legacy mysql you need to use the lower version of
+php 5.5 below
+
+Heres some sample links that you might want to view and see. This might help you
+in your learning process. I always said this to my students, always think outside the box
+learn from me but dont stick your ideas to me, even me need to learn new things
+so do you. So all the learning that you get from me is just a guide for the better one
+outside this class okay. Goodluck and Godbless.
